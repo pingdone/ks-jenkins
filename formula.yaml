@@ -5,7 +5,7 @@ bundle:
   vendor: Kubesphere Community
 buildSettings:
   docker:
-    base: jenkins/jenkins:2.346.3
+    base: jenkins/jenkins:2.60.3
     tag: {{.tag}}
     output: {{.output}}
     platform: {{.platform}}
@@ -15,7 +15,7 @@ war:
   groupId: org.jenkins-ci.main
   artifactId: jenkins-war
   source:
-    version: 2.346.3
+    version: 2.60.3
 plugins:
   - groupId: io.jenkins
     artifactId: configuration-as-code
